@@ -2,7 +2,7 @@ using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
 using TrilhaApiDesafio.Context;
 
-var builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(args); 
 
 // Add services to the container.
 builder.Services.AddDbContext<OrganizadorContext>(options =>
